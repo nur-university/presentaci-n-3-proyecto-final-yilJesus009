@@ -25,14 +25,12 @@
     padding: 30px 20px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
 }
 
 
 .categorias__categorias li i {
     font-size: 48px;
     color: #3884f5;
-    transition: transform 0.3s ease;
 }
 
 .categorias__categorias a {
@@ -43,7 +41,6 @@
     display: block;
 }
 
-/* ========== CATEGORÍAS - TABLET ========== */
 @media (min-width: 768px) {
     .categorias__container {
         padding: 60px 40px;
@@ -71,7 +68,6 @@
     }
 }
 
-/* ========== CATEGORÍAS - DESKTOP ========== */
 @media (min-width: 1025px) {
     .categorias__container {
         padding: 80px 60px;
