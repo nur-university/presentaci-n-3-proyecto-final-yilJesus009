@@ -11,7 +11,7 @@
 
 .destacados__proyectos {
     display: grid;
-    grid-template-columns: 1fr; /* Una columna en mobile */
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 
@@ -54,7 +54,7 @@
 }
 .proyecto__barra {
     height: 100%;
-    background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 100%);
+    background-color: #3884f5;
     border-radius: 10px;
     transition: width 0.5s ease;
 }
@@ -64,13 +64,12 @@
 }
 .proyecto__porcentaje {
     font-size: 12px;
-    color: #4CAF50;
+    color: #3884f5;
 }
 .div__proyecto__porcentaje a{
     color: #3884f5;
 }
 
-/* ========== PROYECTOS DESTACADOS - TABLET ========== */
 @media (min-width: 768px) {
     .destacados__container {
         padding: 60px 40px;
@@ -102,7 +101,6 @@
     }
 }
 
-/* ========== PROYECTOS DESTACADOS - DESKTOP ========== */
 @media (min-width: 1025px) {
     .destacados__container {
         padding: 80px 60px;
