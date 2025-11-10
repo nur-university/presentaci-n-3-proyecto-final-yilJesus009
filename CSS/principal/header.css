@@ -100,7 +100,6 @@
         color: black;
         text-decoration: none;
         padding: 5px 10px;
-        /* transition: color 0.3s ease; */
     }
     .nav__menu a:hover {
         color: #3884f5;

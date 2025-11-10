@@ -1,5 +1,5 @@
 .banner__container {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* O tu color preferido */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 60px 20px;
     text-align: center;
     border-radius: 20px;
@@ -41,7 +41,6 @@
     box-shadow: 0 4px 12px rgba(56, 132, 245, 0.4);
 }
 
-/* ========== BANNER - TABLET ========== */
 @media (min-width: 768px) {
     .banner__container {
         padding: 80px 20px;
@@ -69,7 +68,6 @@
     }
 }
 
-/* ========== BANNER - DESKTOP ========== */
 @media (min-width: 1025px) {
     .banner__container {
         padding: 100px 20px;

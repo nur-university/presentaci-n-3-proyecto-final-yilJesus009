@@ -1,4 +1,3 @@
-/* ========== LOGIN - MOBILE ========== */
 .registro__container {
     height: 100vh;
     display: flex;
@@ -54,7 +53,6 @@
 }
 .registro__button:hover {
     background-color: #2968c7;
-    transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(56, 132, 245, 0.3);
 }
 #olvidaste_contraseña  {
@@ -72,7 +70,6 @@ p{
 }
 
 
-/* ========== LOGIN - TABLET ========== */
 @media (min-width: 768px) {
     .registro__container {
         padding: 60px 40px;
@@ -107,7 +104,6 @@ p{
     }
 }
 
-/* ========== LOGIN - DESKTOP ========== */
 @media (min-width: 1025px) {
     .registro__container {
         padding: 80px 60px;
